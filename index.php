@@ -4,7 +4,7 @@ require __DIR__ . '/vendor/autoload.php'; // remove this line if you use a PHP F
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = 'YOUR API KEY';
 $open_ai = new OpenAi($open_ai_key);
 
 if(isset($_POST['send'])){
